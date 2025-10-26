@@ -1,0 +1,6 @@
+print("Hello world!",
+      world, 
+
+      (a + b / (c - d)), (hi), 'c ')
+
+draw(10, 10, 200, 400);
