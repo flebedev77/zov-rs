@@ -1,6 +1,12 @@
-print("Hello world!",
-      world, 
+print("Hello world!")
 
-      (a + b / (c - d)), (hi), 'c ')
+void test() {
+  print("From inside test");
+}
 
-draw(10, 10, 200, 400);
+void whoami() {print("From inside the function");
+test();
+}
+
+whoami()
+
